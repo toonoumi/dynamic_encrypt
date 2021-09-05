@@ -1,6 +1,6 @@
 # dynamic_encrypt
 
-This program is designed to dynamically encrypt a file. It uses a key of your choice and a timestamp to encrypt your file. This program is not designed for keeping the data absolutely secret (it is still fairly safe), but more for against automatic detection. 
+This command-line tool is designed to dynamically encrypt a file. It uses a key of your choice and a timestamp to encrypt your file. This program is not designed for keeping the data absolutely secret (it is still fairly safe), but more for against automatic detection. 
 
 Remeber, keep the secret and timestamp secure.
 
