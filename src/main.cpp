@@ -1,3 +1,12 @@
+/*********************************************************************
+* Filename:   main.c
+* Author: Xingyu
+* Copyright:  MIT
+* Disclaimer: This code is presented "as is" without any guarantees.
+* Details:    Use it to encrypt and decrypt your files. Feel free to 
+			  use the idea, or components in your project.
+*********************************************************************/
+
 #include <iostream>
 #include <fstream>
 #include "dynamic_encryption.h"

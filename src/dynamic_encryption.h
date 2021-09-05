@@ -1,3 +1,12 @@
+/*********************************************************************
+* Filename:   dynamic_encryption
+* Author: Xingyu
+* Copyright:  MIT
+* Disclaimer: This code is presented "as is" without any guarantees.
+* Details:    Use it to encrypt and decrypt your files. Feel free to 
+			  use the idea, or components in your project.
+*********************************************************************/
+
 #include <fstream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6,7 +15,6 @@
 #include <chrono>
 #include <sys/time.h>
 #include <cstring>
-//auto millisec_since_epoch = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
 
 /*
  * @return returns the timestamp of the encryption

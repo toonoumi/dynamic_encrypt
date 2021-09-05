@@ -1,3 +1,11 @@
+/*********************************************************************
+* Filename:   logger
+* Author: Xingyu
+* Copyright:  MIT
+* Disclaimer: This code is presented "as is" without any guarantees.
+* Details:    Convinient logging util written with macro. Feel free to 
+			  use the idea, or components in your project.
+*********************************************************************/
 #ifndef LOGGER_H_
 #define LOGGER_H_ 
 
