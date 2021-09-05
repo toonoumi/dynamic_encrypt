@@ -16,14 +16,14 @@ make && cd build
 
 ### Encryption
 ```
-./dencrypt -e <secret> <input file> <output file>
+./dencrypt -e <secret text> <input file path> <output file path>
 ```
 Please store your secret and the timestamp somewhere secret and secure
 
 ### Decryption
 
 ```
-./dencrypt -d <secret> <input file> <output file> <timestamp>
+./dencrypt -d <secret text> <input file path> <output file path> <timestamp>
 ```
 Use both the secret and timestamp to decrypt
 
