@@ -13,21 +13,21 @@ clone the repo, then
 sudo apt-get install g++ make
 cd <REPLACE THIS WITH REPO PATH>
 make && cd build
-#binary is named dencrypt
+#binary is named fdencrypt
 ```
 
 ## Usage
 
 ### Encryption
 ```
-./dencrypt -e <secret text> <input file path> <output file path>
+./fdencrypt -e <secret text> <input file path> <output file path>
 ```
 Please store your secret and the timestamp somewhere secret and secure
 
 ### Decryption
 
 ```
-./dencrypt -d <secret text> <input file path> <output file path> <timestamp>
+./fdencrypt -d <secret text> <input file path> <output file path> <timestamp>
 ```
 Use both the secret and timestamp to decrypt
 
